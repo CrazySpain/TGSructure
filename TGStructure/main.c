@@ -10,6 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     TGOffSetStructureTest();
+    TGSerialStructureSizeTest();
     
     return 0;
 }

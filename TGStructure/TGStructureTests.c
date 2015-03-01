@@ -39,5 +39,8 @@ void TGOffSetStructureTest() {
 #undef TGOffsetOfPropertyTest
 
 void TGSerialStructureSizeTest() {
-    TGSerialStructure *structure
+    TGSerialStructure structure = {};
+    TGRandomStructure randomStructure = {};
+    
+    assert(sizeof(structure) < sizeof(randomStructure));
 }

@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 void TGOffSetStructureTest();
+void TGSerialStructureSizeTest();
 
 #endif /* defined(__TGStructure__TGStructureTests__) */
