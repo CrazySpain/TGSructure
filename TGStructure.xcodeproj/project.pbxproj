@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96DA3DEA1AA36F8D00CD70DE /* TGStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 96DA3DE81AA36F8D00CD70DE /* TGStructure.c */; };
+		96E06A4F1A9BBD1000AB93AA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96E06A4E1A9BBD1000AB93AA /* main.c */; };
+		96E06A5A1A9BBD6B00AB93AA /* TGStructureTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96E06A581A9BBD6B00AB93AA /* TGStructureTests.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96E06A491A9BBD1000AB93AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96DA3DE81AA36F8D00CD70DE /* TGStructure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStructure.c; sourceTree = "<group>"; };
+		96DA3DE91AA36F8D00CD70DE /* TGStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructure.h; sourceTree = "<group>"; };
+		96E06A4B1A9BBD1000AB93AA /* TGStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E06A4E1A9BBD1000AB93AA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96E06A581A9BBD6B00AB93AA /* TGStructureTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStructureTests.c; sourceTree = "<group>"; };
+		96E06A591A9BBD6B00AB93AA /* TGStructureTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructureTests.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E06A481A9BBD1000AB93AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E06A421A9BBD1000AB93AA = {
+			isa = PBXGroup;
+			children = (
+				96E06A4D1A9BBD1000AB93AA /* TGStructure */,
+				96E06A4C1A9BBD1000AB93AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E06A4C1A9BBD1000AB93AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E06A4B1A9BBD1000AB93AA /* TGStructure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E06A4D1A9BBD1000AB93AA /* TGStructure */ = {
+			isa = PBXGroup;
+			children = (
+				96DA3DE81AA36F8D00CD70DE /* TGStructure.c */,
+				96DA3DE91AA36F8D00CD70DE /* TGStructure.h */,
+				96E06A4E1A9BBD1000AB93AA /* main.c */,
+				96E06A581A9BBD6B00AB93AA /* TGStructureTests.c */,
+				96E06A591A9BBD6B00AB93AA /* TGStructureTests.h */,
+			);
+			path = TGStructure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E06A4A1A9BBD1000AB93AA /* TGStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E06A521A9BBD1000AB93AA /* Build configuration list for PBXNativeTarget "TGStructure" */;
+			buildPhases = (
+				96E06A471A9BBD1000AB93AA /* Sources */,
+				96E06A481A9BBD1000AB93AA /* Frameworks */,
+				96E06A491A9BBD1000AB93AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGStructure;
+			productName = TGStructure;
+			productReference = 96E06A4B1A9BBD1000AB93AA /* TGStructure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E06A431A9BBD1000AB93AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tora;
+				TargetAttributes = {
+					96E06A4A1A9BBD1000AB93AA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 96E06A461A9BBD1000AB93AA /* Build configuration list for PBXProject "TGStructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96E06A421A9BBD1000AB93AA;
+			productRefGroup = 96E06A4C1A9BBD1000AB93AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E06A4A1A9BBD1000AB93AA /* TGStructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E06A471A9BBD1000AB93AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E06A5A1A9BBD6B00AB93AA /* TGStructureTests.c in Sources */,
+				96DA3DEA1AA36F8D00CD70DE /* TGStructure.c in Sources */,
+				96E06A4F1A9BBD1000AB93AA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96E06A501A9BBD1000AB93AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96E06A511A9BBD1000AB93AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96E06A531A9BBD1000AB93AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96E06A541A9BBD1000AB93AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E06A461A9BBD1000AB93AA /* Build configuration list for PBXProject "TGStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E06A501A9BBD1000AB93AA /* Debug */,
+				96E06A511A9BBD1000AB93AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E06A521A9BBD1000AB93AA /* Build configuration list for PBXNativeTarget "TGStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E06A531A9BBD1000AB93AA /* Debug */,
+				96E06A541A9BBD1000AB93AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E06A431A9BBD1000AB93AA /* Project object */;
+}
